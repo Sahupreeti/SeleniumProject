@@ -7,6 +7,7 @@ ws = wb.active
 for data in my_list:
     ws.append(data)
 '''
+#saving data into excelfile
 for r in range(1, 6):
     for c in range(1,5):
         ws.cell(row=r, column=c).value = r+c
